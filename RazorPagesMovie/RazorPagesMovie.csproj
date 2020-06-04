@@ -17,4 +17,7 @@
     </PackageReference>
     <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="3.1.4" />
   </ItemGroup>
+  <ItemGroup>
+    <Content Remove="Pages\Movies\Delete.cshtml" />
+  </ItemGroup>
 </Project>
